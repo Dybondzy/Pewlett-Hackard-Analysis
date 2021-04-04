@@ -14,6 +14,10 @@ Deliverable 1: The Number of Retiring Employees by Title (50 points)
 Deliverable 1 Instructions
 Using the ERD you created in this module as a reference and your knowledge of SQL queries, create a Retirement Titles table that holds all the titles of current employees who were born between January 1, 1952 and December 31, 1955. Because some employees may have multiple titles in the database—for example, due to promotions—you’ll need to use the DISTINCT ON statement to create a table that contains the most recent title of each employee. Then, use the COUNT() function to create a final table that has the number of retirement-age employees by most recent job title.
 
+The ERD diagram is at the following location:
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/EmployeeDB.png
+
+
 Create a SQL file in the Queries folder of your Pewlett-Hackard-Analysis GitHub folder, and name it Employee_Database_challenge.sql.
 
 Follow the instructions below to complete Deliverable 1.
