@@ -19,6 +19,7 @@ https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/EmployeeDB.png
 
 
 Create a SQL file in the Queries folder of your Pewlett-Hackard-Analysis GitHub folder, and name it Employee_Database_challenge.sql.
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/Employee_Database_challenge.sql.sql
 
 Follow the instructions below to complete Deliverable 1.
 
@@ -30,8 +31,6 @@ Filter the data on the birth_date column to retrieve the employees who were born
 Export the Retirement Titles table from the previous step as retirement_titles.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
 Before you export your table, confirm that it looks like this image:
 
-
-PNG 1
 
 
 Note: There are duplicate entries for some employees because they have switched titles over the years. Use the following instructions to remove these duplicates and keep only the most recent title of each employee.
