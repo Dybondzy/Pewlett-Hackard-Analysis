@@ -19,7 +19,7 @@ https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/EmployeeDB.png
 
 
 Create a SQL file in the Queries folder of your Pewlett-Hackard-Analysis GitHub folder, and name it Employee_Database_challenge.sql.
-https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/Employee_Database_challenge.sql.sql
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/Employee_Database_challenge.sql
 
 Follow the instructions below to complete Deliverable 1.
 
@@ -73,7 +73,7 @@ Deliverable 2 Instructions
 Using the ERD you created in this module as a reference and your knowledge of SQL queries, create a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965.
 
 In the Employee_Database_challenge.sql file, write a query to create a Mentorship Eligibility table that holds the employees who are eligible to participate in a mentorship program.
-https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/Employee_Database_challenge.sql.sql
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/Employee_Database_challenge.sql
 
 
 Retrieve the emp_no, first_name, last_name, and birth_date columns from the Employees table.
@@ -86,9 +86,7 @@ Join the Employees and the Titles tables on the primary key.
 Filter the data on the to_date column to get current employees whose birth dates are between January 1, 1965 and December 31, 1965.
 Order the table by the employee number.
 Export the Mentorship Eligibility table as mentorship_eligibilty.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
-Before you export your table, confirm that it looks like this image:
-
-PNG 4
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/mentorship_eligibilty.csv
 
 
 Deliverable 2 Requirements
@@ -96,6 +94,9 @@ You will earn a perfect score for Deliverable 2 by completing all requirements b
 
 A query is written and executed to create a Mentorship Eligibility table for current employees who were born between January 1, 1965 and December 31, 1965. (25 pt)
 The Mentorship Eligibility table is exported and saved as mentorship_eligibilty.csv. (5 pt)
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/mentorship_eligibilty.csv
+
+
 Deliverable 3: A written report on the employee database analysis (20 points)
 Deliverable 3 Instructions
 For this part of the Challenge, you’ll write a report to help the manager prepare for the upcoming "silver tsunami."
@@ -134,11 +135,23 @@ As a reminder, the deliverables for this Challenge are as follows:
 Deliverable 1: The Number of Retiring Employees by Title
 Deliverable 2: The Employees Eligible for the Mentorship Program
 Deliverable 3: A written report on the employee database analysis (README.md)
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/edit/main/README.md
+
 Upload the following to your Pewlett-Hackard-Analysis GitHub repository:
 
 The Queries folder with the Employee_Database_challenge.sql file
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/Employee_Database_challenge.sql
+
 The Data folder with the retirement_titles.csv, unique_titles.csv, retiring_titles.csv, and mentorship_eligibilty.csv files
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/retirement_titles.csv
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/unique_titles.csv
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/retirement_titles.csv
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/mentorship_eligibilty.csv
+
+
 An updated README.md that has your written analysis
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/edit/main/README.md
+
 To submit your challenge assignment in Canvas, click Submit, then provide the URL of your Pewlett-Hackard-Analysis GitHub repository for grading.
 
 Deliverable 1: The Number of Retiring Employees by Title (50 points)
