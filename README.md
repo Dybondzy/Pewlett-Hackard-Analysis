@@ -256,6 +256,9 @@ Upload the following to your Pewlett-Hackard-Analysis GitHub repository:
 The Queries folder with the Employee_Database_challenge.sql file
 The Data folder with the retirement_titles.csv, unique_titles.csv, retiring_titles.csv, and mentorship_eligibilty.csv files
 An updated README.md that has your written analysis
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/README.md
+
+
 To submit your challenge assignment in Canvas, click Submit, then provide the URL of your Pewlett-Hackard-Analysis GitHub repository for grading.
 
 .
