@@ -48,10 +48,7 @@ If you’d like a hint on using the DISTINCT ON statement, that’s totally okay
 Create a Unique Titles table using the INTO clause.
 Sort the Unique Titles table in ascending order by the employee number and descending order by the last date (i.e. to_date) of the most recent title.
 Export the Unique Titles table as unique_titles.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
-Before you export your table, confirm that it looks like this image:
-
-
-PNG 2
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/unique_titles.csv
 
 
 Write another query in the Employee_Database_challenge.sql file to retrieve the number of employees by their most recent job title who are about to retire.
