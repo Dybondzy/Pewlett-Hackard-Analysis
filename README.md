@@ -35,6 +35,10 @@ https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/retirement_titles
 Note: There are duplicate entries for some employees because they have switched titles over the years. Use the following instructions to remove these duplicates and keep only the most recent title of each employee.
 
 Copy the query from the Employee_Challenge_starter_code.sql and add it to your Employee_Database_challenge.sql file.
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/Employee_Challenge_starter_code.sql
+
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/Employee_Database_Challenge.sql
+
 Retrieve the employee number, first and last name, and title columns from the Retirement Titles table.
 These columns will be in the new table that will hold the most recent title of each employee.
 Use the DISTINCT ON statement to retrieve the first occurrence of the employee number for each set of rows defined by the ON () clause.
