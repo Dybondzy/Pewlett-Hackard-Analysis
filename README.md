@@ -29,8 +29,7 @@ Create a new table using the INTO clause.
 Join both tables on the primary key.
 Filter the data on the birth_date column to retrieve the employees who were born between 1952 and 1955. Then, order by the employee number.
 Export the Retirement Titles table from the previous step as retirement_titles.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
-Before you export your table, confirm that it looks like this image:
-
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/retirement_titles.csv
 
 
 Note: There are duplicate entries for some employees because they have switched titles over the years. Use the following instructions to remove these duplicates and keep only the most recent title of each employee.
