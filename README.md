@@ -56,13 +56,9 @@ First, retrieve the number of titles from the Unique Titles table.
 Then, create a Retiring Titles table to hold the required information.
 Group the table by title, then sort the count column in descending order.
 Export the Retiring Titles table as retiring_titles.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
-Before you export your table, confirm that it looks like this image:
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/retirement_titles.csv
 
 
-PNG 3
-
-
-Save your Employee_Database_challenge.sql file in your Queries folder in the Pewlett-Hackard folder.
 Deliverable 1 Requirements
 You will earn a perfect score for Deliverable 1 by completing all requirements below:
 
@@ -77,6 +73,8 @@ Deliverable 2 Instructions
 Using the ERD you created in this module as a reference and your knowledge of SQL queries, create a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965.
 
 In the Employee_Database_challenge.sql file, write a query to create a Mentorship Eligibility table that holds the employees who are eligible to participate in a mentorship program.
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/Employee_Database_challenge.sql.sql
+
 
 Retrieve the emp_no, first_name, last_name, and birth_date columns from the Employees table.
 Retrieve the from_date and to_date columns from the Department Employee table.
