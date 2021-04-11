@@ -66,11 +66,18 @@ You will earn a perfect score for Deliverable 1 by completing all requirements b
 
 A query is written and executed to create a Retirement Titles table for employees who are born between January 1, 1952 and December 31, 1955. (10 pt)
 The Retirement Titles table is exported as retirement_titles.csv. (5 pt)
+!https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/retirement_titles.csv
+
 ​A query is written and executed to create a Unique Titles table that contains the employee number, first and last name, and most recent title. (15 pt)
 ​The Unique Titles table is exported as unique_titles.csv. (5 pt)
+!https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/unique_titles.csv
+
 A query is written and executed to create a Retiring Titles table that contains the number of titles filled by employees who are retiring. (10 pt)
 The Retiring Titles table is exported as retiring_titles.csv. (5 pt)
+!https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/retiring_titles.csv
+
 Deliverable 2: The Employees Eligible for the Mentorship Program(30 points)
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/mentorship_eligibilty.csv
 Deliverable 2 Instructions
 Using the ERD you created in this module as a reference and your knowledge of SQL queries, create a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965.
 
@@ -236,6 +243,18 @@ Results: Provide a bulleted list with four major points from the two analysis de
 Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+---
+--- How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+--- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees
+1940
+--- number of retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees
+SELECT COUNT(emp_no) number_count
+ FROM employees 
+ WHERE (birth_date BETWEEN '1965-01-01' AND '1965-12-31');
+ANSWER: 1940
+---
+
+
 Deliverable 3 Requirements
 Structure, Organization, and Formatting (6 points)
 The written analysis has the following structure, organization, and formatting:
