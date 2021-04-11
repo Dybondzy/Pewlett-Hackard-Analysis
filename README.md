@@ -58,7 +58,7 @@ First, retrieve the number of titles from the Unique Titles table.
 Then, create a Retiring Titles table to hold the required information.
 Group the table by title, then sort the count column in descending order.
 Export the Retiring Titles table as retiring_titles.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
-https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/retirement_titles.csv
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/retiring_titles.csv
 
 
 Deliverable 1 Requirements
@@ -147,7 +147,7 @@ https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/Employee_Database
 The Data folder with the retirement_titles.csv, unique_titles.csv, retiring_titles.csv, and mentorship_eligibilty.csv files
 !https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/retirement_titles.csv
 !https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/unique_titles.csv
-!https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/retirement_info.csv
+!https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/retiring_titles.csv
 !https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/mentorship_eligibilty.csv
 
 
