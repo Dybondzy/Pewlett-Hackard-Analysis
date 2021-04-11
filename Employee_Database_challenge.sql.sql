@@ -59,5 +59,53 @@ ORDER BY number_count DESC;
 retiring_titles
 
 ----------------------
+
+--- In the Employee_Database_challenge.sql file, write a query to create a Mentorship Eligibility table that holds the employees who are eligible to participate in a mentorship program.
+
+--- Retrieve the emp_no, first_name, last_name, and birth_date columns from the Employees table.
+--- Retrieve the from_date and to_date columns from the Department Employee table.
+--- Retrieve the title column from the Titles table.
+--- Use a DISTINCT ON statement to retrieve the first occurrence of the employee number for each set of rows defined by the ON () clause.
+--- Create a new table using the INTO clause.
+--- Join the Employees and the Department Employee tables on the primary key.
+--- Join the Employees and the Titles tables on the primary key.
+--- Filter the data on the to_date column to get current employees whose birth dates are between January 1, 1965 and December 31, 1965.
+--- Order the table by the employee number.
+--- Export the Mentorship Eligibility table as mentorship_eligibilty.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
+
+SELECT DISTINCT A.emp_no, first_name, last_name, birth_date, from_date, to_date, title
+INTO mentorship_eligibilty
+FROM
+	( SELECT emp_no, first_name, last_name, birth_date
+	  FROM employees ) A
+INNER JOIN 
+	( SELECT emp_no, from_date, to_date
+	  FROM Dept_emp ) B ON A.emp_no=B.emp_no
+INNER JOIN
+	( SELECT D.emp_no, title
+	  FROM titles D
+	  INNER JOIN (SELECT emp_no, max(from_date) title_date
+	  			  FROM titles
+	  			  GROUP BY emp_no) E
+	  ON D.emp_no=E.emp_no AND D.from_date=E.title_date) C 
+ ON A.emp_no=C.emp_no AND B.emp_no=C.emp_no
+ WHERE (birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+ ORDER BY emp_no;
+
+SELECT * FROM mentorship_eligibilty
+
+
+
+
+
 ----------------------
-----------------------
+
+
+--- How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+--- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees
+1940
+--- number of retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees
+SELECT COUNT(emp_no) number_count
+ FROM employees 
+ WHERE (birth_date BETWEEN '1965-01-01' AND '1965-12-31');
+ANSWER: 1940
