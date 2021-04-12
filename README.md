@@ -2,6 +2,8 @@
 
 MODULE 7
 
+## Purpose
+
 Background
 Now that Bobby has proven his SQL chops, his manager has given both of you two more assignments: determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. Then, you’ll write a report that summarizes your analysis and helps prepare Bobby’s manager for the “silver tsunami” as many current employees reach retirement age.
 
@@ -127,7 +129,7 @@ Links to images are working and displayed correctly. (2 pt)
 Analysis (14 points)
 The written analysis has the following:
 
-Overview of the analysis:
+## Overview of the analysis:
 
 The purpose of the new analysis is well defined. (3 pt)
 Results:
@@ -161,7 +163,6 @@ The Data folder with the retirement_titles.csv, unique_titles.csv, retiring_titl
 An updated README.md that has your written analysis
 https://github.com/Dybondzy/Pewlett-Hackard-Analysis/edit/main/README.md
 
-To submit your challenge assignment in Canvas, click Submit, then provide the URL of your Pewlett-Hackard-Analysis GitHub repository for grading.
 
 Deliverable 1: The Number of Retiring Employees by Title (50 points)
 Deliverable 1 Instructions
