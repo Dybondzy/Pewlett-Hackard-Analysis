@@ -225,7 +225,7 @@ Join the Employees and the Titles tables on the primary key.
 Filter the data on the to_date column to get current employees whose birth dates are between January 1, 1965 and December 31, 1965.
 Order the table by the employee number.
 Export the Mentorship Eligibility table as mentorship_eligibilty.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
-Before you export your table, confirm that it looks like this image:
+https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/mentorship_eligibilty.csv
 
 Deliverable 2 Requirements
 You will earn a perfect score for Deliverable 2 by completing all requirements below:
@@ -241,18 +241,12 @@ The analysis should contain the following:
 Overview of the analysis: Explain the purpose of this analysis.
 Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
----
---- How many roles will need to be filled as the "silver tsunami" begins to make an impact?
---- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees
 1940
---- number of retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees
+Number of retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees
 SELECT COUNT(emp_no) number_count
  FROM employees 
  WHERE (birth_date BETWEEN '1965-01-01' AND '1965-12-31');
-ANSWER: 1940
----
+ 
 
 
 Deliverable 3 Requirements
@@ -290,6 +284,4 @@ An updated README.md that has your written analysis
 https://github.com/Dybondzy/Pewlett-Hackard-Analysis/blob/main/README.md
 
 
-To submit your challenge assignment in Canvas, click Submit, then provide the URL of your Pewlett-Hackard-Analysis GitHub repository for grading.
 
-.
